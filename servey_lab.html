@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servey</title>
+    <style>
+        table, th,tr,td{
+            border: solid 1px #000;
+        }
+    </style>
+</head>
+<body>
+    <!--Header-->
+    <div>
+        <h1>Market Research Survey</h1>
+        <p>Please take a few moments </p>
+    </div>
+    <!-- Body-->
+    <form name="product_survey_form" action="/xu_ly_du_lieu" method="post">
+    <div>
+        <label><p><strong>What is your age range</strong></p></label>
+        <select name="age">
+            <option value="18-24">18-24</option>
+            <option value="24-30">24-30</option>
+        </select>
+    </div>
+
+    <div>
+        <label><p><strong>What is your income range?</strong></p></label>
+        <select name="" id="">
+            <option value="">$0 - $25,000</option>
+        </select>
+    </div>
+
+    <div>
+        <label for=""><p><strong>Gender Identity</strong></p></label>
+        <input name="gender" value="" type="radio">Male <br>
+        <input name="gender" value="" type="radio">Female<br>
+        <input name="gender" value="" type="radio">Nonbinary<br>
+        <input name="gender" value="" type="radio">Other<br>
+        <input value="" type="text">
+
+    </div>
+    <div>
+        <label><p><strong>Which of the following</strong></p></label>
+        <input name="Product" value="" type="checkbox">Product1 <br>
+        <input name="Product" value="" type="checkbox">Product2<br>
+        <input name="Product" value="" type="checkbox">Product3<br>
+
+    </div>
+    <div>
+        <label><p><strong>What would you pay for the new product?</strong></p></label>
+        $ <input value="" type="number"> - <input type="number">
+
+
+    </div>
+    <div>
+        <label><p><strong>What features would you like to see in the new product</strong></p></label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+        <p> Please rate your level of agreement with the following statements</p>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Strongly Disagree</th>
+                    <th>Disagree</th>
+                    <th>Agree</th>
+                    <th>Strongly Agree</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Our products are priced fairly</td>
+                    <td>
+                        <input name="" value="" type="radio">
+                        <p>1</p>
+                    </td>
+                    <td>
+                        <input name="" value="" type="radio">
+                        <p>2</p>
+
+                    </td>
+                    <td>
+                        <input name="" value="" type="radio">
+                        <p>3</p>
+                    </td>
+                    <td>
+                        <input name="" value="" type="radio">
+                        <p>4</p>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>Our products are high quality</td>
+                    <td>
+                        <input name="" value="" type="radio">
+                        <p>1</p>
+                    </td>
+                    <td>
+                        <input name="" value="" type="radio">
+                        <p>2</p>
+
+                    </td>
+                    <td>
+                        <input name="" value="" type="radio">
+                        <p>3</p>
+                    </td>
+                    <td>
+                        <input name="" value="" type="radio">
+                        <p>4</p>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>You would recommend our product to a friend or coworker</td>
+                    <td>
+                        <input name="" value="" type="radio">
+                        <p>1</p>
+                    </td>
+                    <td>
+                        <input name="" value="" type="radio">
+                        <p>2</p>
+
+                    </td>
+                    <td>
+                        <input name="" value="" type="radio">
+                        <p>3</p>
+                    </td>
+                    <td>
+                        <input name="" value="" type="radio">
+                        <p>4</p>
+                    </td>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <input type="button" name="btSubmit" value="Submit">
+    </div>
+
+    </form>
+</body>
+<footer>
+
+</footer>
+</html>
